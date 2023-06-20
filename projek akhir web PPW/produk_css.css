@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* svg {
+    margin-top: -50px;
+  } */
+body {
+  background: #c1b697;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+#konten1 h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+#banner_img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.5)),
+    url(bahanwebsite/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.teks_banner {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #c2c2c2;
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner_img .teks_banner h2 {
+  font-size: 100px;
+  margin-top: -30px;
+  font-weight: 700;
+}
+
+.produk-card-kiri {
+  margin-top: 5%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.deskripsi-kiri {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-right: 50px;
+  background: rgb(21, 21, 21);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.deskripsi-kiri h1 {
+  color: #c2c2c2;
+  margin-left: 30px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.deskripsi-kiri h2 {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+
+.deskripsi-kiri p,
+.deskripsi-kiri li {
+  color: #c2c2c2;
+  margin-left: 25px;
+  text-align: left;
+  padding-right: 100px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 800px;
+  height: 400px;
+}
+
+.img1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(125, 125, 125, 0.4)),
+    url("bahanwebsite/gan13M.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(125, 125, 125, 0.4)),
+    url("bahanwebsite/rs3m.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(125, 125, 125, 0.4)),
+    url("bahanwebsite/xman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(125, 125, 125, 0.4)),
+    url("bahanwebsite/dayanznchi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#footer {
+  margin-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list-gambar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+#footer p {
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 770px) {
+  #banner_img .teks_banner h2 {
+    margin-top: 2px;
+    font-size: 40px;
+  }
+
+  #konten1 {
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #konten1 h1 {
+    margin-left: -5px;
+    font-size: 18px;
+  }
+
+  .produk-card-kiri {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .deskripsi-kiri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .deskripsi-kiri h1 {
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .deskripsi-kiri h2 {
+    margin-left: -65%;
+    font-size: 15px;
+    font-weight: 5px;
+  }
+
+  .deskripsi-kiri p,
+  .deskripsi-kiri li {
+    padding-right: 25px;
+    font-size: 10px;
+    margin-left: 0;
+  }
+
+  .deskripsi-kiri p {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .deskripsi-kiri li {
+    padding-bottom: 5px;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    width: 84.5%;
+    height: 200px;
+  }
+}
